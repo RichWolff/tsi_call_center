@@ -65,6 +65,11 @@ def main():
              src_name='Google Analytics',
              src_database='postgresql',
              src_suffix='ga')
+
+    sql_pull(sql_file='brand_tracker.sql',
+             src_name='Brand Tracker',
+             src_database='postgresql',
+             src_suffix='bt')
     return None
 
 def sql_pull(*,sql_file,src_name,src_database,src_suffix):

@@ -1,19 +1,19 @@
 SELECT
   level1.*,
   CASE
-  	WHEN level1.medium = 'cpc' and level1.source in ('facebook-instagram','facebook','instagram','pinterest','facebook-remarketing') THEN 'digital_social'
-	WHEN level1.medium = 'cpc' and level1.source in ('google','bing') THEN 'digial_search'
-	WHEN level1.medium = 'cpc' and level1.source in ('pandora','spotify') THEN 'digital_audio'
-	WHEN level1.medium = 'cpc' and level1.source in ('hulu','roku','googlepreferred') THEN 'digital_video'
+  	WHEN level1.medium = 'cpc' and level1.source in ('facebook-instagram','facebook','instagram','pinterest','facebook-remarketing') THEN 'digital_cpc_social'
+	WHEN level1.medium = 'cpc' and level1.source in ('google','bing') THEN 'digital_cpc_search'
+	WHEN level1.medium = 'cpc' and level1.source in ('pandora','spotify') THEN 'digital_cpc_audio'
+	WHEN level1.medium = 'cpc' and level1.source in ('hulu','roku','googlepreferred') THEN 'digital_cpc_video'
 	WHEN level1.medium in ('organic','(none)') THEN 'organic-direct'
-	WHEN level1.medium = 'referral' and level1.source in ('tempurpillows.com','tempurpedicsale.com','tempur.com','sealy.com','tempursealy.com') THEN 'tsi_site'
-	WHEN level1.medium = 'referral' and level1.source in ('youtube.com') THEN 'unpaid_digital_video'
-	WHEN (level1.medium = 'referral' and level1.source in ('thesleepjudge.com','sleepopolis.com','memoryfoamtalk.com')) or level1.medium = 'HONESTMATTRESSREVIEWS.COM' THEN 'review_sites'
+	WHEN level1.medium = 'referral' and level1.source in ('tempurpillows.com','tempurpedicsale.com','tempur.com','sealy.com','tempursealy.com') THEN 'referral_tsi_site'
+	WHEN level1.medium = 'referral' and level1.source in ('youtube.com') THEN 'referral_digital_video'
+	WHEN (level1.medium = 'referral' and level1.source in ('thesleepjudge.com','sleepopolis.com','memoryfoamtalk.com')) or level1.medium = 'HONESTMATTRESSREVIEWS.COM' THEN 'referral_review_sites'
 	WHEN level1.medium = 'email' then 'digital_email'
 	WHEN level1.medium = 'display' then 'digital_display'
 	WHEN level1.medium = 'tv' then 'tv'
 	ELSE 'digital_other'
-  END ga_srcmed_group,
+  END srcmed_group,
   EXTRACT(week FROM level1.date)::integer as isoWeek,
   EXTRACT(MONTH from level1.date)::integer as Month,
   EXTRACT(QUARTER FROM level1.date)::integer as Quarter,

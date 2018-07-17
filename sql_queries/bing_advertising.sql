@@ -11,9 +11,7 @@ SELECT
 	advertiser,
 	sum(cost) cost,
 	sum(impressions) impressions,
-	sum(clicks) clicks,
-	sum(video_views) video_views,
-	sum(video_completes) video_completes
+	sum(clicks) clicks
 FROM
 (SELECT
     date,
@@ -43,9 +41,7 @@ FROM
   advertiser,
   cost,
   impressions,
-  clicks,
-  video_views,
-  video_completes
+  clicks
 FROM
 	[raw].[raw_thrive_bing]
 WHERE

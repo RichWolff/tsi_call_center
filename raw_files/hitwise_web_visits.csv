@@ -2684,17 +2684,17 @@ hit_date,hit_isoweek,hit_month,hit_quarter,hit_year,hit_isoyear,hit_brandname,hi
 2018-06-10,23,6,2,2018,2018,casper,casper,manufacturer,disruptor,330955.0
 2018-06-10,23,6,2,2018,2018,Nectar,Nectar,manufacturer,disruptor,302332.0
 2018-06-10,23,6,2,2018,2018,saatva,saatva,manufacturer,disruptor,166364.0
-2018-06-10,23,6,2,2018,2018,tuft & needle,tuft & needle,manufacturer,disruptor,110860.0
 2018-06-10,23,6,2,2018,2018,leesa,leesa,manufacturer,disruptor,75732.0
+2018-06-10,23,6,2,2018,2018,tuft & needle,tuft & needle,manufacturer,disruptor,110860.0
+2018-06-10,23,6,2,2018,2018,Helix,Helix,manufacturer,disruptor,36201.0
 2018-06-10,23,6,2,2018,2018,loom & leaf,saatva,manufacturer,disruptor,54117.0
 2018-06-10,23,6,2,2018,2018,Avocado Mattress,Avocado Mattress,manufacturer,disruptor,41382.0
-2018-06-10,23,6,2,2018,2018,Helix,Helix,manufacturer,disruptor,36201.0
 2018-06-10,23,6,2,2018,2018,Nest Bedding,Nest Bedding,manufacturer,disruptor,38203.0
 2018-06-10,23,6,2,2018,2018,ghost bed,ghost bed,manufacturer,disruptor,29479.0
 2018-06-10,23,6,2,2018,2018,Zen Haven,Saatva,manufacturer,disruptor,28050.0
-2018-06-10,23,6,2,2018,2018,Bed In a Box,Bed In a Box,manufacturer,disruptor,11980.0
 2018-06-10,23,6,2,2018,2018,Nolah,Nolah,manufacturer,disruptor,14614.0
 2018-06-10,23,6,2,2018,2018,Wink Beds,Wink Beds,manufacturer,disruptor,10566.0
+2018-06-10,23,6,2,2018,2018,Bed In a Box,Bed In a Box,manufacturer,disruptor,11980.0
 2018-06-10,23,6,2,2018,2018,cocoon,tsi,manufacturer,disruptor,12400.0
 2018-06-10,23,6,2,2018,2018,Sleep Eve,Sleep Eve,manufacturer,disruptor,2590.0
 2018-06-10,23,6,2,2018,2018,Eve Mattress,Sleep Eve,manufacturer,disruptor,2590.0
@@ -2703,8 +2703,8 @@ hit_date,hit_isoweek,hit_month,hit_quarter,hit_year,hit_isoyear,hit_brandname,hi
 2018-06-03,22,6,2,2018,2018,tempur-pedic,tsi,manufacturer,traditional,270033.0
 2018-06-03,22,6,2,2018,2018,simmons/beautyrest,ssb,manufacturer,traditional,65029.0
 2018-06-10,23,6,2,2018,2018,sleep number,select comfort,manufacturer,traditional,345603.0
-2018-06-10,23,6,2,2018,2018,serta,ssb,manufacturer,traditional,61152.0
 2018-06-10,23,6,2,2018,2018,tempur-pedic,tsi,manufacturer,traditional,95628.0
+2018-06-10,23,6,2,2018,2018,serta,ssb,manufacturer,traditional,61152.0
 2018-06-10,23,6,2,2018,2018,simmons/beautyrest,ssb,manufacturer,traditional,41931.0
 2018-06-10,23,6,2,2018,2018,sealy,tsi,manufacturer,traditional,22868.0
 2018-06-10,23,6,2,2018,2018,stearns & foster,tsi,manufacturer,traditional,6861.0
@@ -2721,21 +2721,52 @@ hit_date,hit_isoweek,hit_month,hit_quarter,hit_year,hit_isoyear,hit_brandname,hi
 2018-05-27,21,5,2,2018,2018,cocoon,tsi,manufacturer,disruptor,18303.0
 2018-06-03,22,6,2,2018,2018,purple,purple,manufacturer,disruptor,620413.0
 2018-06-03,22,6,2,2018,2018,casper,casper,manufacturer,disruptor,438663.0
+2018-07-01,26,6,2,2018,2018,Helix,Helix,manufacturer,disruptor,44299.0
+2018-07-01,26,6,2,2018,2018,loom & leaf,saatva,manufacturer,disruptor,57102.0
+2018-07-01,26,6,2,2018,2018,Avocado Mattress,Avocado Mattress,manufacturer,disruptor,50117.0
+2018-07-01,26,6,2,2018,2018,Nest Bedding,Nest Bedding,manufacturer,disruptor,40397.0
+2018-07-01,26,6,2,2018,2018,ghost bed,ghost bed,manufacturer,disruptor,26502.0
+2018-07-01,26,6,2,2018,2018,Zen Haven,Saatva,manufacturer,disruptor,21580.0
+2018-07-01,26,6,2,2018,2018,Nolah,Nolah,manufacturer,disruptor,12986.0
+2018-07-01,26,6,2,2018,2018,Wink Beds,Wink Beds,manufacturer,disruptor,11948.0
+2018-07-01,26,6,2,2018,2018,Bed In a Box,Bed In a Box,manufacturer,disruptor,16568.0
+2018-07-01,26,6,2,2018,2018,cocoon,tsi,manufacturer,disruptor,7822.0
+2018-07-01,26,6,2,2018,2018,Sleep Eve,Sleep Eve,manufacturer,disruptor,1651.0
+2018-07-01,26,6,2,2018,2018,Eve Mattress,Sleep Eve,manufacturer,disruptor,1651.0
+2018-06-17,24,6,2,2018,2018,sleep number,select comfort,manufacturer,traditional,340880.0
+2018-06-17,24,6,2,2018,2018,tempur-pedic,tsi,manufacturer,traditional,72077.0
+2018-06-17,24,6,2,2018,2018,serta,ssb,manufacturer,traditional,75920.0
+2018-06-17,24,6,2,2018,2018,simmons/beautyrest,ssb,manufacturer,traditional,37345.0
+2018-06-17,24,6,2,2018,2018,sealy,tsi,manufacturer,traditional,18821.0
+2018-06-17,24,6,2,2018,2018,stearns & foster,tsi,manufacturer,traditional,5863.0
+2018-06-24,25,6,2,2018,2018,sleep number,select comfort,manufacturer,traditional,352173.0
+2018-06-24,25,6,2,2018,2018,tempur-pedic,tsi,manufacturer,traditional,85253.0
+2018-06-24,25,6,2,2018,2018,serta,ssb,manufacturer,traditional,95524.0
+2018-06-24,25,6,2,2018,2018,simmons/beautyrest,ssb,manufacturer,traditional,36885.0
+2018-06-24,25,6,2,2018,2018,sealy,tsi,manufacturer,traditional,19192.0
+2018-06-24,25,6,2,2018,2018,stearns & foster,tsi,manufacturer,traditional,3406.0
+2018-07-01,26,6,2,2018,2018,sleep number,select comfort,manufacturer,traditional,380957.0
+2018-07-01,26,6,2,2018,2018,tempur-pedic,tsi,manufacturer,traditional,99460.0
+2018-07-01,26,6,2,2018,2018,serta,ssb,manufacturer,traditional,107217.0
+2018-07-01,26,6,2,2018,2018,simmons/beautyrest,ssb,manufacturer,traditional,53913.0
+2018-07-01,26,6,2,2018,2018,sealy,tsi,manufacturer,traditional,16288.0
+2018-07-01,26,6,2,2018,2018,stearns & foster,tsi,manufacturer,traditional,5177.0
+2017-05-14,19,5,2,2017,2017,tempur-pedic,tsi,manufacturer,traditional,150378.0
 2018-06-17,24,6,2,2018,2018,purple,purple,manufacturer,disruptor,512777.0
 2018-06-17,24,6,2,2018,2018,casper,casper,manufacturer,disruptor,288276.0
 2018-06-17,24,6,2,2018,2018,Nectar,Nectar,manufacturer,disruptor,285676.0
 2018-06-17,24,6,2,2018,2018,saatva,saatva,manufacturer,disruptor,150144.0
-2018-06-17,24,6,2,2018,2018,tuft & needle,tuft & needle,manufacturer,disruptor,135151.0
 2018-06-17,24,6,2,2018,2018,leesa,leesa,manufacturer,disruptor,78904.0
+2018-06-17,24,6,2,2018,2018,tuft & needle,tuft & needle,manufacturer,disruptor,135151.0
+2018-06-17,24,6,2,2018,2018,Helix,Helix,manufacturer,disruptor,37648.0
 2018-06-17,24,6,2,2018,2018,loom & leaf,saatva,manufacturer,disruptor,45592.0
 2018-06-17,24,6,2,2018,2018,Avocado Mattress,Avocado Mattress,manufacturer,disruptor,50725.0
-2018-06-17,24,6,2,2018,2018,Helix,Helix,manufacturer,disruptor,37648.0
 2018-06-17,24,6,2,2018,2018,Nest Bedding,Nest Bedding,manufacturer,disruptor,37883.0
 2018-06-17,24,6,2,2018,2018,ghost bed,ghost bed,manufacturer,disruptor,25237.0
 2018-06-17,24,6,2,2018,2018,Zen Haven,Saatva,manufacturer,disruptor,24313.0
-2018-06-17,24,6,2,2018,2018,Bed In a Box,Bed In a Box,manufacturer,disruptor,11699.0
 2018-06-17,24,6,2,2018,2018,Nolah,Nolah,manufacturer,disruptor,8960.0
 2018-06-17,24,6,2,2018,2018,Wink Beds,Wink Beds,manufacturer,disruptor,8905.0
+2018-06-17,24,6,2,2018,2018,Bed In a Box,Bed In a Box,manufacturer,disruptor,11699.0
 2018-06-17,24,6,2,2018,2018,cocoon,tsi,manufacturer,disruptor,7730.0
 2018-06-17,24,6,2,2018,2018,Sleep Eve,Sleep Eve,manufacturer,disruptor,1843.0
 2018-06-17,24,6,2,2018,2018,Eve Mattress,Sleep Eve,manufacturer,disruptor,1843.0
@@ -2743,17 +2774,17 @@ hit_date,hit_isoweek,hit_month,hit_quarter,hit_year,hit_isoyear,hit_brandname,hi
 2018-06-24,25,6,2,2018,2018,casper,casper,manufacturer,disruptor,375503.0
 2018-06-24,25,6,2,2018,2018,Nectar,Nectar,manufacturer,disruptor,302584.0
 2018-06-24,25,6,2,2018,2018,saatva,saatva,manufacturer,disruptor,172583.0
-2018-06-24,25,6,2,2018,2018,tuft & needle,tuft & needle,manufacturer,disruptor,133797.0
 2018-06-24,25,6,2,2018,2018,leesa,leesa,manufacturer,disruptor,100468.0
+2018-06-24,25,6,2,2018,2018,tuft & needle,tuft & needle,manufacturer,disruptor,133797.0
+2018-06-24,25,6,2,2018,2018,Helix,Helix,manufacturer,disruptor,41872.0
 2018-06-24,25,6,2,2018,2018,loom & leaf,saatva,manufacturer,disruptor,45930.0
 2018-06-24,25,6,2,2018,2018,Avocado Mattress,Avocado Mattress,manufacturer,disruptor,45475.0
-2018-06-24,25,6,2,2018,2018,Helix,Helix,manufacturer,disruptor,41872.0
 2018-06-24,25,6,2,2018,2018,Nest Bedding,Nest Bedding,manufacturer,disruptor,32179.0
 2018-06-24,25,6,2,2018,2018,ghost bed,ghost bed,manufacturer,disruptor,34068.0
 2018-06-24,25,6,2,2018,2018,Zen Haven,Saatva,manufacturer,disruptor,16553.0
-2018-06-24,25,6,2,2018,2018,Bed In a Box,Bed In a Box,manufacturer,disruptor,15371.0
 2018-06-24,25,6,2,2018,2018,Nolah,Nolah,manufacturer,disruptor,9380.0
 2018-06-24,25,6,2,2018,2018,Wink Beds,Wink Beds,manufacturer,disruptor,11408.0
+2018-06-24,25,6,2,2018,2018,Bed In a Box,Bed In a Box,manufacturer,disruptor,15371.0
 2018-06-24,25,6,2,2018,2018,cocoon,tsi,manufacturer,disruptor,9254.0
 2018-06-24,25,6,2,2018,2018,Sleep Eve,Sleep Eve,manufacturer,disruptor,1735.0
 2018-06-24,25,6,2,2018,2018,Eve Mattress,Sleep Eve,manufacturer,disruptor,1735.0
@@ -2761,39 +2792,32 @@ hit_date,hit_isoweek,hit_month,hit_quarter,hit_year,hit_isoyear,hit_brandname,hi
 2018-07-01,26,6,2,2018,2018,casper,casper,manufacturer,disruptor,427672.0
 2018-07-01,26,6,2,2018,2018,Nectar,Nectar,manufacturer,disruptor,264651.0
 2018-07-01,26,6,2,2018,2018,saatva,saatva,manufacturer,disruptor,152108.0
-2018-07-01,26,6,2,2018,2018,tuft & needle,tuft & needle,manufacturer,disruptor,132140.0
 2018-07-01,26,6,2,2018,2018,leesa,leesa,manufacturer,disruptor,124799.0
-2018-07-01,26,6,2,2018,2018,loom & leaf,saatva,manufacturer,disruptor,57102.0
-2018-07-01,26,6,2,2018,2018,Avocado Mattress,Avocado Mattress,manufacturer,disruptor,50117.0
-2018-07-01,26,6,2,2018,2018,Helix,Helix,manufacturer,disruptor,44299.0
-2018-07-01,26,6,2,2018,2018,Nest Bedding,Nest Bedding,manufacturer,disruptor,40397.0
-2018-07-01,26,6,2,2018,2018,ghost bed,ghost bed,manufacturer,disruptor,26502.0
-2018-07-01,26,6,2,2018,2018,Zen Haven,Saatva,manufacturer,disruptor,21580.0
-2018-07-01,26,6,2,2018,2018,Bed In a Box,Bed In a Box,manufacturer,disruptor,16568.0
-2018-07-01,26,6,2,2018,2018,Nolah,Nolah,manufacturer,disruptor,12986.0
-2018-07-01,26,6,2,2018,2018,Wink Beds,Wink Beds,manufacturer,disruptor,11948.0
-2018-07-01,26,6,2,2018,2018,cocoon,tsi,manufacturer,disruptor,7822.0
-2018-07-01,26,6,2,2018,2018,Sleep Eve,Sleep Eve,manufacturer,disruptor,1651.0
-2018-07-01,26,6,2,2018,2018,Eve Mattress,Sleep Eve,manufacturer,disruptor,1651.0
-2018-06-17,24,6,2,2018,2018,sleep number,select comfort,manufacturer,traditional,340880.0
-2018-06-17,24,6,2,2018,2018,serta,ssb,manufacturer,traditional,75920.0
-2018-06-17,24,6,2,2018,2018,tempur-pedic,tsi,manufacturer,traditional,72077.0
-2018-06-17,24,6,2,2018,2018,simmons/beautyrest,ssb,manufacturer,traditional,37345.0
-2018-06-17,24,6,2,2018,2018,sealy,tsi,manufacturer,traditional,18821.0
-2018-06-17,24,6,2,2018,2018,stearns & foster,tsi,manufacturer,traditional,5863.0
-2018-06-24,25,6,2,2018,2018,sleep number,select comfort,manufacturer,traditional,352173.0
-2018-06-24,25,6,2,2018,2018,serta,ssb,manufacturer,traditional,95524.0
-2018-06-24,25,6,2,2018,2018,tempur-pedic,tsi,manufacturer,traditional,85253.0
-2018-06-24,25,6,2,2018,2018,simmons/beautyrest,ssb,manufacturer,traditional,36885.0
-2018-06-24,25,6,2,2018,2018,sealy,tsi,manufacturer,traditional,19192.0
-2018-06-24,25,6,2,2018,2018,stearns & foster,tsi,manufacturer,traditional,3406.0
-2018-07-01,26,6,2,2018,2018,sleep number,select comfort,manufacturer,traditional,380957.0
-2018-07-01,26,6,2,2018,2018,serta,ssb,manufacturer,traditional,107217.0
-2018-07-01,26,6,2,2018,2018,tempur-pedic,tsi,manufacturer,traditional,99460.0
-2018-07-01,26,6,2,2018,2018,simmons/beautyrest,ssb,manufacturer,traditional,53913.0
-2018-07-01,26,6,2,2018,2018,sealy,tsi,manufacturer,traditional,16288.0
-2018-07-01,26,6,2,2018,2018,stearns & foster,tsi,manufacturer,traditional,5177.0
-2017-05-14,19,5,2,2017,2017,tempur-pedic,tsi,manufacturer,traditional,150378.0
+2018-07-01,26,6,2,2018,2018,tuft & needle,tuft & needle,manufacturer,disruptor,132140.0
+2018-07-08,27,7,3,2018,2018,purple,purple,manufacturer,disruptor,600552.0
+2018-07-08,27,7,3,2018,2018,casper,casper,manufacturer,disruptor,483755.0
+2018-07-08,27,7,3,2018,2018,Nectar,Nectar,manufacturer,disruptor,296744.0
+2018-07-08,27,7,3,2018,2018,saatva,saatva,manufacturer,disruptor,218044.0
+2018-07-08,27,7,3,2018,2018,leesa,leesa,manufacturer,disruptor,159214.0
+2018-07-08,27,7,3,2018,2018,tuft & needle,tuft & needle,manufacturer,disruptor,145336.0
+2018-07-08,27,7,3,2018,2018,Helix,Helix,manufacturer,disruptor,59515.0
+2018-07-08,27,7,3,2018,2018,loom & leaf,saatva,manufacturer,disruptor,58366.0
+2018-07-08,27,7,3,2018,2018,Avocado Mattress,Avocado Mattress,manufacturer,disruptor,55271.0
+2018-07-08,27,7,3,2018,2018,Nest Bedding,Nest Bedding,manufacturer,disruptor,46329.0
+2018-07-08,27,7,3,2018,2018,ghost bed,ghost bed,manufacturer,disruptor,35568.0
+2018-07-08,27,7,3,2018,2018,Zen Haven,Saatva,manufacturer,disruptor,25098.0
+2018-07-08,27,7,3,2018,2018,Nolah,Nolah,manufacturer,disruptor,18371.0
+2018-07-08,27,7,3,2018,2018,Wink Beds,Wink Beds,manufacturer,disruptor,14780.0
+2018-07-08,27,7,3,2018,2018,Bed In a Box,Bed In a Box,manufacturer,disruptor,13231.0
+2018-07-08,27,7,3,2018,2018,cocoon,tsi,manufacturer,disruptor,7775.0
+2018-07-08,27,7,3,2018,2018,Sleep Eve,Sleep Eve,manufacturer,disruptor,1286.0
+2018-07-08,27,7,3,2018,2018,Eve Mattress,Sleep Eve,manufacturer,disruptor,1286.0
+2018-07-08,27,7,3,2018,2018,sleep number,select comfort,manufacturer,traditional,444781.0
+2018-07-08,27,7,3,2018,2018,tempur-pedic,tsi,manufacturer,traditional,171638.0
+2018-07-08,27,7,3,2018,2018,serta,ssb,manufacturer,traditional,100539.0
+2018-07-08,27,7,3,2018,2018,simmons/beautyrest,ssb,manufacturer,traditional,46886.0
+2018-07-08,27,7,3,2018,2018,sealy,tsi,manufacturer,traditional,25464.0
+2018-07-08,27,7,3,2018,2018,stearns & foster,tsi,manufacturer,traditional,9184.0
 2017-05-14,19,5,2,2017,2017,simmons/beautyrest,ssb,manufacturer,traditional,23550.0
 2017-05-14,19,5,2,2017,2017,sealy,tsi,manufacturer,traditional,34662.0
 2017-05-14,19,5,2,2017,2017,stearns & foster,tsi,manufacturer,traditional,11131.0
