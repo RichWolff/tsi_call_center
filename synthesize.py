@@ -72,6 +72,12 @@ def main():
              src_suffix='bt')
     return None
 
+    sql_pull(sql_file='ggl_queries.sql',
+             src_name='Google Queries',
+             src_database='azure',
+             src_suffix='gglq')
+    return None
+
 def sql_pull(*,sql_file,src_name,src_database,src_suffix):
     query = read_file(sql_queries_dir+sql_file)
     print('Downloading ' + src_name + ' Data...',end='\t')

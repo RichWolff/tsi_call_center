@@ -14,6 +14,7 @@ SELECT
 	WHEN level1.medium = 'tv' then 'tv'
 	ELSE 'digital_other'
   END srcmed_group,
+  CASE WHEN level1.medium in ('organic','cpc') and level1.source = 'google' THEN level1.total_sessions else 0 end sessions_from_google_search,
   EXTRACT(week FROM level1.date)::integer as isoWeek,
   EXTRACT(MONTH from level1.date)::integer as Month,
   EXTRACT(QUARTER FROM level1.date)::integer as Quarter,

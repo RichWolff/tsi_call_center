@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 zscore = lambda x: (x-x.mean())/x.std()
 
-def regression_plot(res,ax=None,multiplier=None):
+def regression_plot(res,ax=None,multiplier=None,hide_features=None):
     '''TO DO: WRITE DOCSTRING '''
     def pval_color(x):
         if x > .05:
@@ -35,14 +35,20 @@ def regression_plot(res,ax=None,multiplier=None):
     if not multiplier == None:
         for key,val in zip(multiplier.keys(),multiplier.values()):
             feature_data.loc[key] = feature_data.loc[key]*val
+
     feature_data.sort_values('coefs',ascending=True,inplace=True)
 
+    feature_data_plot = feature_data.copy()
+
+    if not hide_features == None:
+        feature_data_plot.drop(hide_features,inplace = True)
+
     ax.grid(axis='y',linewidth=.33)
-    ax.scatter(y=feature_data.index,x=feature_data['coefs'],c=list(map(pval_color,feature_data['pval'])))
-    ax.scatter(y=feature_data.index,x=feature_data['l_ci_99'],marker='|',s=100,c='r')
-    ax.scatter(y=feature_data.index,x=feature_data['h_ci_99'],marker='|',s=100,c='r')
-    ax.scatter(y=feature_data.index,x=feature_data['l_ci_95'],marker='|',s=25,c='orange')
-    ax.scatter(y=feature_data.index,x=feature_data['h_ci_95'],marker='|',s=25,c='orange')
+    ax.scatter(y=feature_data_plot.index,x=feature_data_plot['coefs'],c=list(map(pval_color,feature_data_plot['pval'])))
+    ax.scatter(y=feature_data_plot.index,x=feature_data_plot['l_ci_99'],marker='|',s=100,c='r')
+    ax.scatter(y=feature_data_plot.index,x=feature_data_plot['h_ci_99'],marker='|',s=100,c='r')
+    ax.scatter(y=feature_data_plot.index,x=feature_data_plot['l_ci_95'],marker='|',s=25,c='orange')
+    ax.scatter(y=feature_data_plot.index,x=feature_data_plot['h_ci_95'],marker='|',s=25,c='orange')
     ax.set_xlabel('Expected Return From Feature',size=14)
     ax.set_title('Range of Returns By Feature',size=16)
     return ax,feature_data[['l_ci_99','l_ci_95','coefs','h_ci_95','h_ci_99','pval',]]
