@@ -13,7 +13,7 @@ connections = {
         'port':'1433',
         'database':'insights',
         'username':'insights_admin',
-        'password':'97a101e105i#',
+        'password':'123456Rw*',
         'driver':'{ODBC Driver 13 for SQL Server}',
         'cnxn':pyodbc.connect
     },
@@ -23,7 +23,7 @@ connections = {
         'port':'5432',
         'database':'insights',
         'username':'postgres',
-        'password':'#4BobbyOrr',
+        'password':'123456Rw*',
         'driver':'postgresql',
         'cnxn': psycopg2
     }
