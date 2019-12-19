@@ -9,21 +9,21 @@ import os
 # CONSTANTS
 connections = {
     'azure' : {
-        'server':'tsi-insights.database.windows.net',
-        'port':'1433',
-        'database':'insights',
-        'username':'insights_admin',
-        'password':'123456Rw*',
+        'server': os.getenv('azure_server'),
+        'port': os.getenv('azure_port'),
+        'database': os.getenv('azure_db'),
+        'username': os.getenv('azure_usr'),
+        'password': os.getenv('azure_pwd'),
         'driver':'{ODBC Driver 13 for SQL Server}',
         'cnxn':pyodbc.connect
     },
 
     'postgres' : {
-        'server':'localhost',
-        'port':'5432',
-        'database':'insights',
-        'username':'postgres',
-        'password':'123456Rw*',
+        'server': os.getenv('psql_server'),
+        'port': os.getenv('psql_port'),
+        'database': os.getenv('psql_db'),
+        'username': os.getenv('psql_usr'),
+        'password': os.getenv('psql_pwd'),
         'driver':'postgresql',
         'cnxn': psycopg2
     }
